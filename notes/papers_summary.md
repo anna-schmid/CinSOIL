@@ -1,5 +1,8 @@
 # Summary of Papers
 
+- [Batjes et al. (2022)](../papers/Batjes_2024.pdf): Providing quality-assessed and standardised soil data to support global mapping and modelling
+(WoSIS snapshot 2023)
+
 
 - [Brøeg et al. (2024)](../papers/Broeg_2024.pdf): Spatiotemporal Monitoring of Cropland Soil Organic Carbon Changes From Space
 
