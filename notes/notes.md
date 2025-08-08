@@ -5,14 +5,6 @@
 Here is where I collect all the Data sources that I explored. Currently exploring Soil Data, Elevation Data, potentially further Satellite Data, Weather Data and Carbon Flux Data. 
 
 
-Starting key notes to check out: 
-- “Caring for Soil” mission of the European Commission
-- WorldSoils (http://www.world-soils.com/, accessed on 7 Aug 2025) of the European Space Agency (ESA)
-- STEROPES of the European Joint H2020 Program SOIL (https://ejpsoil.eu, accessed on 07 Aug 2025) - more importantly check out https://ejpsoil.eu/soil-data/ and https://catalogue.ejpsoil.eu (this looks like a catalogue listing a set of datasets around soil data in Europe (coming from [Vaudour et al., 2022](../papers/Vaudour_et_al_2022.pdf))).
-- World Soil Information Service (WoSIS) - see https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5 from [Batjes et. al. (2024)](../papers/Batjes_2024.pdf).
-- [European Soil Data Centre](https://esdac.jrc.ec.europa.eu/resource-type/datasets-list)
-
-
 ### Satellites Spectral Information 
 According to [Vaudour et al., 2022](../papers/Vaudour_et_al_2022.pdf):
 
@@ -64,6 +56,7 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 - [French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)
 - [BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)
 - [WoSIS Soil Profile Database](https://www.isric.org/explore/wosis)
+- [World Soil Information Service (WoSIS)](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5) - see from [Batjes et. al. (2024)](../papers/Batjes_2024.pdf).
 - [Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)
 - [Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/)
 - [Countryside survey of topsoil in Great Britain](https://www.ukso.org/static-maps/countryside-survey-topsoil.html)
@@ -82,5 +75,12 @@ Usage of SSLs?
 
 So far, used the [LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas).
 
+
+
+And some more things to check out: 
+
+- “Caring for Soil” mission of the European Commission
+- WorldSoils (http://www.world-soils.com/, accessed on 7 Aug 2025) of the European Space Agency (ESA)
+- STEROPES of the European Joint H2020 Program SOIL (https://ejpsoil.eu, accessed on 07 Aug 2025) - more importantly check out https://ejpsoil.eu/soil-data/ and https://catalogue.ejpsoil.eu (this looks like a catalogue listing a set of datasets around soil data in Europe (coming from [Vaudour et al., 2022](../papers/Vaudour_et_al_2022.pdf))).
 
 
