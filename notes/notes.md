@@ -13,8 +13,6 @@ Starting key notes to check out:
 - [European Soil Data Centre](https://esdac.jrc.ec.europa.eu/resource-type/datasets-list)
 
 
-
-
 ### Satellites Spectral Information 
 According to [Vaudour et al., 2022](../papers/Vaudour_et_al_2022.pdf):
 
@@ -58,5 +56,31 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 - Mineral and organic soils are usually processed seperately 
 - Analytical methods used for SOC measurements are far from being homogenous among laboratories and countries, and specifically in the context of the satellite-derived SOC studies, with 50% using dry combustion, 30% wet oxidation, and others unspecified. The Walkley–Black method, common in the past, tends to underestimate SOC. Dry combustion (automated dry combustion ADC) with a CHN analyzer is now the standard, but results need correction (usually by a factor of 1.33) for wet oxidation. This correction factor varies based on factors like climate and soil type. Additionally, CN analyzers measure total carbon, including carbonates, which must be subtracted to find the actual SOC in calcareous soils.
 (least biased method to this point is ADC, with some exceptions for very organic soils)
+
+#### Potential Soil Data
+
+- [LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas)
+- [European Soil Data Centre (ESDAC)](https://esdac.jrc.ec.europa.eu)
+- [French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)
+- [BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)
+- [WoSIS Soil Profile Database](https://www.isric.org/explore/wosis)
+- [Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)
+- [Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/)
+- [Countryside survey of topsoil in Great Britain](https://www.ukso.org/static-maps/countryside-survey-topsoil.html)
+
+More ideas:
+- [European HYdropedological Data Inventory (EU-HYDI)](https://publications.jrc.ec.europa.eu/repository/handle/JRC81129)
+- [Soil profile analytical database 14 (SPADE 14)](https://esdac.jrc.ec.europa.eu/content/spade-14)
+- [German Agricultural Soil Inventory (BZE-LW)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw)
+
+
+
+Usage of SSLs? 
+- [GEOCRADLE (Soil Spectral Library (SSL))](http://datahub.geocradle.eu/dataset/regional-soil-spectral-library)
+
+#### ![USECASE CINSOIL](https://img.shields.io/badge/USECASE%20CINSOIL-green)
+
+So far, used the [LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas).
+
 
 
