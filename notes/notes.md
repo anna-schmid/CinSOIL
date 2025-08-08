@@ -39,8 +39,11 @@ Since 2015/2017: __MultiSpectral Instrument__
 - Over very large areas or national scales, maybe MODIS with 250 or 500 m resultion or Sentinel-3 equipped with the Ocean and Land Colour Instrument (OLCI) with 300 m resolution
 
 
-#### USECASE CINSOIL
+#### $${\color{red}USECASE CINSOIL}$$
 
 As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](https://sentinels.copernicus.eu/web/sentinel/sentinel-data-access/sentinel-products/copernicus-sentinel-2-msi-level-2h-and-level-2f-1).
 
-### 
+### Overall Characteristics of Soil Data
+
+#### Soil Types and Agroeceosystems 
+
