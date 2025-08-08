@@ -10,6 +10,7 @@ Starting key notes to check out:
 - WorldSoils (http://www.world-soils.com/, accessed on 7 Aug 2025) of the European Space Agency (ESA)
 - STEROPES of the European Joint H2020 Program SOIL (https://ejpsoil.eu, accessed on 07 Aug 2025) - more importantly check out https://ejpsoil.eu/soil-data/ and https://catalogue.ejpsoil.eu (this looks like a catalogue listing a set of datasets around soil data in Europe (coming from [Vaudour et al., 2022](../papers/Vaudour_et_al_2022.pdf))).
 - World Soil Information Service (WoSIS) - see https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5 from [Batjes et. al. (2024)](../papers/Batjes_2024.pdf).
+- [European Soil Data Centre](https://esdac.jrc.ec.europa.eu/resource-type/datasets-list)
 
 
 
@@ -46,4 +47,16 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 ### Overall Characteristics of Soil Data
 
 #### Soil Types and Agroeceosystems 
+- Soil types refer tot the World Reference Base (WBR) and the US Soil Taxonomy
+- Soils are typically cambisols, and luvisols and, to a lesser extent, regosols, leptosols, stagnosols, chernozems and the so-called “inceptisols” of the US Soil Taxonomy
+- The most frequent qualiier is "haplic"
+
+#### Spatial Scales, Sample Size and Density
+- Most studies at the scale of small regeions, some hundreds km^2
+- The total sample size ranged from 32 to 1753 topsoil samples, most of them being collected from the 0–10 cm or 0–20 cm topsoil. The median sample size varies from 85 for field and farm, to 100 for small regions, 264 for large regions and reaches 625 samples for very large region
+- Datasets of measured topsoil SOC contents refer to mineral soils with annual crop systems with an average value of ~15 g•kg^(-1) a range of 30 g•kg^(-1) in median
+- Mineral and organic soils are usually processed seperately 
+- Analytical methods used for SOC measurements are far from being homogenous among laboratories and countries, and specifically in the context of the satellite-derived SOC studies, with 50% using dry combustion, 30% wet oxidation, and others unspecified. The Walkley–Black method, common in the past, tends to underestimate SOC. Dry combustion (automated dry combustion ADC) with a CHN analyzer is now the standard, but results need correction (usually by a factor of 1.33) for wet oxidation. This correction factor varies based on factors like climate and soil type. Additionally, CN analyzers measure total carbon, including carbonates, which must be subtracted to find the actual SOC in calcareous soils.
+(least biased method to this point is ADC, with some exceptions for very organic soils)
+
 
