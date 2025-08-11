@@ -1,6 +1,6 @@
 _Last updated: 2025-08-11_
 
-# FarmVibes
+# FarmVibes (Microsoft)
 
 ## Intro
 
@@ -10,8 +10,7 @@ Key technologies:
 - [FarmVibes.Connect](https://www.microsoft.com/en-us/research/articles/farmvibes-connect/): Capturing farm data from sensors, drones, and farm equipment (will be released to GitHub soon)
 - [FarmVibes.Edge](https://www.microsoft.com/en-us/research/articles/farmvibes-edge/): Processing farm data captured by drones or other farm sources (will be released to GitHub soon)
 - [FarmVibes.AI](https://www.microsoft.com/en-us/research/articles/farmvibes-ai/): Extracting intelligence from farm data and remote sensing sources 
-- [FarmVibes.Bot:](https://www.microsoft.com/en-us/research/articles/farmvibes-bot/): Using chat bots to connect with the farmer, either to query data or relay insights (will be released to GitHub soon)
-
+- [FarmVibes.Bot](https://www.microsoft.com/en-us/research/articles/farmvibes-bot/): Using chat bots to connect with the farmer, either to query data or relay insights (will be released to GitHub soon)
 
 
 ## Farmvibes.AI (MIT license)
@@ -53,13 +52,14 @@ Most relevant for our usecase:
   - Combine data connectors, pre-processing, and the model pieces together into a robust inference WFs.t. it runs inference for time range and updates the results once upstream data is uploaded (done by creating a WF composed of fused data prep and fusion model WFs)
 
 ### Operation Mode
+
 Open-source, data generated is persisted locally. actual WF and implementation are provided via Docker images. 
 
 User can interact with the local FarmVibes.AI via a REST API, or a local Python client.
 
 
-
 ### Microsoft Workshop on FarmVibes.AI
+
 Food Security Workshop by Microsoft on [FarmVibes.AI](https://www.youtube.com/watch?v=RNoA7ri2v5I) (Overview & TRAINING), Microsoft Research Summit 2022:
  
 We need more data-driven agri-food systems, which will drive efficiencies in the each individual step as part of the whole agri-food chain.
@@ -70,7 +70,7 @@ Introduction by Leonardo Nunes:
 Data-driven agriculture: improve yield, reduce cost, ensure sustainability
 Challenges: no single data source
 WF: Connect data, pre-process, train/build, infer
-User input (region, date) -> L2A preprocess -> Detect shadows -> Remove clouds -> Output
+User input (region, date) → L2A preprocess → Detect shadows → Remove clouds → Output
 
 Rest API, Python Client
 
@@ -98,7 +98,7 @@ Once we have this foundation we can:
 3. Predict SOC spatially
 
 Possible pipeline:
-Collect data (SOC reference data (field/lab measurements), Satellite + climate features, DEM, etc.) &rarr Preprocess &rarr  Model: Train our ML model for SOC prediction &rarr Predict + visualize
+Collect data (SOC reference data (field/lab measurements), Satellite + climate features, DEM, etc.) → Preprocess →  Model: Train our ML model for SOC prediction → Predict + visualize
 
 
 
