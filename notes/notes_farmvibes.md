@@ -7,7 +7,7 @@ _Last updated: 2025-08-11_
 Goal is to enable researchers, practitioners, and data scienctists to build affordable digital technologies to help farmers estimate the emissions in their farm, with climate adaptation by predicting weather variation, and determine the right management practices that can be profitable and help improve soil health. 
 
 Key technologies: 
-- [FarmVibes.Connect](https://www.microsoft.com/en-us/research/articles/farmvibes-connect/]: Capturing farm data from sensors, drones, and farm equipment (will be released to GitHub soon)
+- [FarmVibes.Connect](https://www.microsoft.com/en-us/research/articles/farmvibes-connect/): Capturing farm data from sensors, drones, and farm equipment (will be released to GitHub soon)
 - [FarmVibes.Edge](https://www.microsoft.com/en-us/research/articles/farmvibes-edge/): Processing farm data captured by drones or other farm sources (will be released to GitHub soon)
 - [FarmVibes.AI](https://www.microsoft.com/en-us/research/articles/farmvibes-ai/): Extracting intelligence from farm data and remote sensing sources 
 - [FarmVibes.Bot:](https://www.microsoft.com/en-us/research/articles/farmvibes-bot/): Using chat bots to connect with the farmer, either to query data or relay insights (will be released to GitHub soon)
@@ -43,6 +43,11 @@ There are three main pieces to FarmVibes.AI:
   - Can tune the models to make it more accurate for the parts of the world or seasons that you are focusing on.
   - The library includes notebooks for detecting practices (e.g. harvest date detection), estimating climate impact (both seasonal carbon footprint and long term sustainability), micro climate prediction, and crop identification.
   - Starting guide to train fusion models
+
+Complete list of notebooks currently available in FarmVibes.AI: [LIST](https://microsoft.github.io/farmvibes-ai/docfiles/markdown/NOTEBOOK_LIST.html)
+
+Most relevant for our usecase: 
+  - Carbon notebook 
 
 3. Computing engine, that supports data ingestion as well as adjusting/creating WFs with the tuned model - [FarmVibes.AI Inference Engine: GitHub Link](https://github.com/microsoft/farmvibes-ai?tab=readme-ov-file#farmvibesai-inference-engine)
   - Combine data connectors, pre-processing, and the model pieces together into a robust inference WFs.t. it runs inference for time range and updates the results once upstream data is uploaded (done by creating a WF composed of fused data prep and fusion model WFs)
