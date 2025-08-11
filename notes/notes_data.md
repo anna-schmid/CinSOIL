@@ -67,7 +67,7 @@ More ideas:
 - [European HYdropedological Data Inventory (EU-HYDI)](https://publications.jrc.ec.europa.eu/repository/handle/JRC81129)
 - [Soil profile analytical database 14 (SPADE 14)](https://esdac.jrc.ec.europa.eu/content/spade-14)
 - [German Agricultural Soil Inventory (BZE-LW)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw)
-
+- [SoilGrids — global gridded soil information](https://www.isric.org/explore/soilgrids)
 
 
 Usage of SSLs? 

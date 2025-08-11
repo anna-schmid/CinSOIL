@@ -52,11 +52,11 @@ Most relevant for our usecase:
 3. Computing engine, that supports data ingestion as well as adjusting/creating WFs with the tuned model - [FarmVibes.AI Inference Engine: GitHub Link](https://github.com/microsoft/farmvibes-ai?tab=readme-ov-file#farmvibesai-inference-engine)
   - Combine data connectors, pre-processing, and the model pieces together into a robust inference WFs.t. it runs inference for time range and updates the results once upstream data is uploaded (done by creating a WF composed of fused data prep and fusion model WFs)
 
-
 ### Operation Mode
 Open-source, data generated is persisted locally. actual WF and implementation are provided via Docker images. 
 
 User can interact with the local FarmVibes.AI via a REST API, or a local Python client.
+
 
 
 ### Microsoft Workshop on FarmVibes.AI
@@ -73,6 +73,34 @@ WF: Connect data, pre-process, train/build, infer
 User input (region, date) -> L2A preprocess -> Detect shadows -> Remove clouds -> Output
 
 Rest API, Python Client
+
+
+
+# ![USECASE CINSOIL](https://img.shields.io/badge/USECASE%20CINSOIL-green)
+
+FarmVibes.AI can be used for: 
+1. Data acquisition
+  - Download Sentinel-1 (SAR), Sentinel-2 (multispectral), Landsat, MODIS (and combine!)
+2. Data preprocessing
+  - Atmospheric correction
+  - Cloud masking 
+  - Spatial alignment 
+3. Feature/indices generation
+  - Vegetation Indices (Normalized Difference Vegetation Index (NDVI), Enhanced Vegetation Index (EVI), Soil/Bare Ground Indices (BSI), Soil-Adjusted Vegetation Index (SAVI)) 
+  - Moisture Indices (Normalized Difference Moisture Index (NDMI))
+  - Climate, precipitation layers 
+  - Topography using Digital Eleveation Models (DEM)
+
+Once we have this foundation we can: 
+
+1. Join them with SOC data (see file [notes_data.md](../notes/notes_data.md) for SOC data brainstorming)
+2. Train our model (RothC, Random Forest, etc.) inside or outside FarmVibes.AI
+3. Predict SOC spatially
+
+Possible pipeline:
+Collect data (SOC reference data (field/lab measurements), Satellite + climate features, DEM, etc.) &rarr Preprocess &rarr  Model: Train our ML model for SOC prediction &rarr Predict + visualize
+
+
 
 
 
