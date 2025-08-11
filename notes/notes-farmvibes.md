@@ -93,7 +93,7 @@ FarmVibes.AI can be used for:
 
 Once we have this foundation we can: 
 
-1. Join them with SOC data (see file [notes_data.md](../notes/notes_data.md) for SOC data brainstorming)
+1. Join them with SOC data (see file [notes_data.md](../notes/notes-data.md) for SOC data brainstorming)
 2. Train our model (RothC, Random Forest, etc.) inside or outside FarmVibes.AI
 3. Predict SOC spatially
 
