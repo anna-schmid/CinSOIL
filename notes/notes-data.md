@@ -53,14 +53,14 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 
 #### Potential Soil Data
 
-| Data Set              | License        | Score (0-100) | Remarks              |
-|-----------------------|----------------|---------------|----------------------|
+| Data Set              | License | Overview. | Score (0-100) | Remarks  | 
+|-----------------------|---------|-----------|---------------|----------|
 |[LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas)| | | |
 |[European Soil Data Centre (ESDAC)](https://esdac.jrc.ec.europa.eu)| | | |
-[French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)| | | |
+|[French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)| | | |
+|[BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)| | | |
 
 
-- [BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)
 - [WoSIS Soil Profile Database](https://www.isric.org/explore/wosis)
 - [World Soil Information Service (WoSIS)](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5) - see from [Batjes et. al. (2024)](../papers/Batjes_2024.pdf).
 - [Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)
