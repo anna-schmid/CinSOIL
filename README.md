@@ -6,21 +6,22 @@ This is my initial research summary for the data part of CinSOIL. Here you will 
 The current structure of this repository is as follows:
 
 
-- 📝 **[notes/](notes)** — Research notes, summaries and planning
-  - [notes.md](notes/notes.md) — Main summary
-  - [papers-summary.md](notes/papers-summary.md) — Notes from literature
+- 📝 **[notes/](../CinSOIL/notes/)** — Research notes, summaries and planning
+  - [notes-data.md](../CinSOIL/notes/notes-data.md) — Summary on data sources (SOC, ...)
+  - [papers-sum.md](../CinSOIL/notes/papers-sum.md) — Notes from literature, summaries of papers 
+  - [notes-farmvibes.md](../CinSOIL/notes/notes-farmvibes.md) 
   - ...
 
-- 🐍 **[scripts/](scripts)** — Python scripts for (future) scraping and automation
+- 🐍 **[scripts/](../CinSOIL/scripts/)** — Python scripts for (future) scraping and automation
   - *...*
 
-- 📊 **[notebooks/](notebooks)** — Jupyter for data exploration
+- 📊 **[notebooks/](../CinSOIL/notebooks/)** — Jupyter for data exploration
   - *...*
 
-- 📁 **[data/](data)** — Datasets
+- 📁 **[data/](../CinSOIL/data/)** — Datasets and overview/description of datasets
   - *...*
 
-- 📚 **[papers/](papers)** — PDFs/refs from literature
+- 📚 **[papers/](../CinSOIL/papers/)** — PDFs/refs from literature
   - *...*
 
 - 🚫 [.gitignore](.gitignore) — Keeps repo free of junk
