@@ -54,8 +54,8 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 #### Potential Soil Data
 
 Big:
--[ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets) - [Overview of all Datasets on ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets-list)
--[ISRIC World Soil Information](https://www.isric.org/explore/wosis)
+- [ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets) --> [Overview of all Datasets on ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets-list)
+- [ISRIC World Soil Information](https://www.isric.org/explore/wosis)
 
 
 ##### Big Scale Actual Datasets
