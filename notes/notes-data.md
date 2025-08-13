@@ -44,7 +44,7 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 - The most frequent qualiier is "haplic"
 
 #### Spatial Scales, Sample Size and Density
-- Most studies at the scale of small regeions, some hundreds km^2
+- Most studies at the scale of small regions, some hundreds km^2
 - The total sample size ranged from 32 to 1753 topsoil samples, most of them being collected from the 0–10 cm or 0–20 cm topsoil. The median sample size varies from 85 for field and farm, to 100 for small regions, 264 for large regions and reaches 625 samples for very large region
 - Datasets of measured topsoil SOC contents refer to mineral soils with annual crop systems with an average value of ~15 g•kg^(-1) a range of 30 g•kg^(-1) in median
 - Mineral and organic soils are usually processed seperately 
@@ -53,29 +53,41 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 
 #### Potential Soil Data
 
+Big:
+-[ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets) - [Overview of all Datasets on ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets-list)
+-[ISRIC World Soil Information](https://www.isric.org/explore/wosis)
+
+
+##### Big Scale Actual Datasets
 | Data Set              | License | Overview. | Score (0-100) | Remarks  | 
 |-----------------------|---------|-----------|---------------|----------|
-|[LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas)| | | |
-|[European Soil Data Centre (ESDAC)](https://esdac.jrc.ec.europa.eu)| | | |
-|[French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)| | | |
-|[BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)| | | |
+|[LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas)| Access via ESDAC registration | ~19k samples across EU+UK; SOC, texture, pH, nutrients, and other topsoil properties.; mainly 0–20 cm depth; 2009/2012/2015/2018 | | |
+[World Soil Information Service (WoSIS)](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5)| | | | |
+|[Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/)|Open license, but non-commercial use (needs specific approval from FAO)| | | |
+|ISRIC: [SOTER-based soil parameter estimates (SOTWIS) for Central and Eastern Europe, version 2.0](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/f9f23e4f-903a-4dfe-bfc4-0e6bf362b09a)| | | | | 
+|ISRIC: [WoSIS latest - Organic matter](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5)| | | | | 
+|ISRIC: [cup4soil](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3cc719a6-cbf5-4bc8-94c3-cd7d2b3db3c3)| | | | |
+|ESDAC: [SPADE 14](https://esdac.jrc.ec.europa.eu/content/spade-14#tabs-0-description=0)| commercial use allowed | 1078 soil profile data from 28 countries | | | |
 
 
-- [WoSIS Soil Profile Database](https://www.isric.org/explore/wosis)
-- [World Soil Information Service (WoSIS)](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5) - see from [Batjes et. al. (2024)](../papers/Batjes_2024.pdf).
-- [Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)
-- [Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/)
-- [Countryside survey of topsoil in Great Britain](https://www.ukso.org/static-maps/countryside-survey-topsoil.html)
-
-More ideas:
-- [European HYdropedological Data Inventory (EU-HYDI)](https://publications.jrc.ec.europa.eu/repository/handle/JRC81129)
-- [Soil profile analytical database 14 (SPADE 14)](https://esdac.jrc.ec.europa.eu/content/spade-14)
-- [German Agricultural Soil Inventory (BZE-LW)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw)
-- [SoilGrids — global gridded soil information](https://www.isric.org/explore/soilgrids)
+##### Regional, National Monitoring Networks and Datasets
+| Data Set              | License | Overview. | Score (0-100) | Remarks  | 
+|-----------------------|---------|-----------|---------------|----------|
+|[NABODAT, Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)| Non-commercial Creative Commons license (further inquieries ongoing)| | | |
+|[French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)| Etalab Open License 2.0 (commercial use ok) | Topsoil measurements (SOC, nutrients, pH, texture, etc.)| |
+|[German Soil Inventory (BZE)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw) link to [Open Agrar](https://www.openagrar.de/receive/openagrar_mods_00054877)| CC BY 4.0 (commercial use ok)| | | |
+|[ITACyL](https://suelos.itacyl.es/base_datos)| commercial use allowed (as far as I can tell)| | | |
+|[Countryside survey of topsoil in Great Britain](https://www.ukso.org/static-maps/countryside-survey-topsoil.html)| ??? | | | |
 
 
-Usage of SSLs? 
+SSLs:
 - [GEOCRADLE (Soil Spectral Library (SSL))](http://datahub.geocradle.eu/dataset/regional-soil-spectral-library)
+
+
+Link-Dump:
+- [BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)
+- [Environmental Information Data Centre](https://eidc.ac.uk/finddata) - seems to have many open license datasets
+- [SoilGrids — global gridded soil information](https://www.isric.org/explore/soilgrids)
 
 #### ![USECASE CINSOIL](https://img.shields.io/badge/USECASE%20CINSOIL-green)
 
