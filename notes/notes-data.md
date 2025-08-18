@@ -70,6 +70,11 @@ Big:
 |ISRIC: [cup4soil](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3cc719a6-cbf5-4bc8-94c3-cd7d2b3db3c3)| | |
 |ESDAC: [SPADE 14](https://esdac.jrc.ec.europa.eu/content/spade-14#tabs-0-description=0)| commercial use allowed | 1078 soil profile data from 28 countries | | |
 |[Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/)|Open license, but non-commercial use (needs specific approval from FAO)| | |
+|[International Soil Carbon Network (ISCN)](https://iscn.fluxdata.org/data/)| Open-access (?), community-driven soil carbon database| Soil data from over 70'000 locations globally | |  
+|[National Resources Conservation Service (NRCS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm) --> [Web Soil Surves (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx) | Generally open access (Lab Data Mart) | USA | [Access Lab Data Mart](https://ncsslabdatamart.sc.egov.usda.gov) |
+|[Rapid Carbon Assessment](https://www.nrcs.usda.gov/resources/data-and-reports/rapid-carbon-assessment-raca) | | USA | [RaCA Download](https://nrcs.app.box.com/s/upx5xhlwis7saunfiysclfrhl5vxxudn) |
+| [Gridded Soil Survey Geographic (gSSURGO) Database](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-soil-survey-geographic-gssurgo-database) | Public domain | USA | |
+
 
 
 ##### Regional, National Monitoring Networks and Datasets
@@ -102,7 +107,7 @@ Link-Dump:
 
 - [BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)
 - [Environmental Information Data Centre](https://eidc.ac.uk/finddata) - seems to have many open license datasets
-- [SoilGrids — global gridded soil information](https://www.isric.org/explore/soilgrids)
+- [SoilGrids — global gridded soil information](https://www.isric.org/explore/soilgrids): ML-based global gridded soil dataset --> not for validation, but maybe comparison?
 - [Belgian Soil Sampling (LUCAS verification)](https://catalogue.ejpsoil.eu/collections/metadata:main/items/10.5281-zenodo.15114209)
 - [Soil Organic Carbon Stock Maps for Belgium](https://www.dov.vlaanderen.be/geonetwork/srv/api/records/037427b6-d9ad-43ec-9c1e-b423396266d6)
 - [Stocks de carbone (0-30 cm) des sols du réseau RMQS, France](https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.15454/RURZXN)
@@ -116,7 +121,8 @@ Link-Dump:
 | Data Set              | License | Overview. | Remarks  | 
 |-----------------------|---------|-----------|----------|
 | [ERA-5 Land](https://www.ecmwf.int/en/era5-land) | open access | wind, temp, snow, soil temp, surface precssure, solar rad, prec, soil water; worldwide | | 
-| [Worldclim](https://worldclim.org/data/index.html) |
+| [Worldclim](https://worldclim.org/data/index.html) | commercial use is not allowed without prior permission | avg min/max temp, total prec: spatial resolution is 2.5 minutes (~21 km2 at the equator), 5 minutes (~85 km2) or 10 minutes (~340 km2): monthly data for 1950-2024 | downscaled from CRU-TS-4.09 by the Climatic Research Unit |
+| [TerraClimate](https://www.climatologylab.org/terraclimate.html) | public domain | Maximum temperature, minimum temperature, vapor pressure, precipitation accumulation, downward surface shortwave radiation, wind-speed: monthly, 4km spatial resolution, 1958-2019 | combining high-spatial resolution climatological normals from the WorldClim dataset, with coarser spatial resolution, but time-varying data from CRU Ts4.0 and the Japanese 55-year Reanalysis (JRA55) |
 
 
 
