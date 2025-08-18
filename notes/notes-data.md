@@ -143,8 +143,7 @@ It provides information on wind, temperature, snow cover, soil temperature, surf
 |[ICOS Carbon Tracker Europe](https://www.icos-cp.eu/data-products/high-resolution-near-real-time-co2-fluxes-over-europe-carbon-tracker-europe-2017-2025) | CC BY 4.0 | Collection of hourly CO2 fluxes for 2017-2025 | |
 |[ICOS Biosphere-atmosphere exchange fluxes for CO2](https://www.icos-cp.eu/data-products/biosphere-atmosphere-exchange-fluxes-co2-vegetation-photosynthesis-and-respiration) | CC BY 4.0 | Biosphere-atmosphere exchange fluxes for CO2 simulated with the Vegetation Photosynthesis and Respiration Model VPRM for the European domain. | |
 |[FLUXNET](https://fluxnet.org/about/)| open access | | [Access to FLUXNET2015, the most recent dataset](https://fluxnet.org/data/fluxnet2015-dataset/); planned to be fully operational by December 2025|
-|[FLUXCOM](https://www.fluxcom.org)| CC BY 4.0 | [Scaling carbon fluxes from eddy covariance sites to globe: synthesis and evaluation of the FLUXCOM approach
-](https://bg.copernicus.org/articles/17/1343/2020/bg-17-1343-2020-discussion.html)| [Access Link](https://www.bgc-jena.mpg.de/geodb/projects/Home.php); upscaled flux measurements globally based on FLUXNET data |
+|[FLUXCOM](https://www.fluxcom.org)| CC BY 4.0 | [Scaling carbon fluxes from eddy covariance sites to globe: synthesis and evaluation of the FLUXCOM approach](https://bg.copernicus.org/articles/17/1343/2020/bg-17-1343-2020-discussion.html)| [Access Link](https://www.bgc-jena.mpg.de/geodb/projects/Home.php); upscaled flux measurements globally based on FLUXNET data |
 |[GloFlux](https://data.tpdc.ac.cn/en/data/761ff597-830d-4e1a-9999-b99fd6f8d4a2) | CC BY 4.0 | [Nature Paper on GloFLux](https://www.nature.com/articles/s41597-025-05672-8?utm_source=chatgpt.com)| |
 
 
