@@ -7,6 +7,7 @@ _Last updated: 2025-08-11_
 Here is where I collect all the Data sources that I explored. Currently exploring Soil Data, Elevation Data, potentially further Satellite Data, Weather Data and Carbon Flux Data. 
 
 
+## Satellite Data
 ### Satellites Spectral Information 
 According to [Vaudour et al., 2022](../papers/Vadour-2024.pdf):
 
@@ -36,6 +37,8 @@ Since 2015/2017: __MultiSpectral Instrument__
 
 As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](https://sentinels.copernicus.eu/web/sentinel/sentinel-data-access/sentinel-products/copernicus-sentinel-2-msi-level-2h-and-level-2f-1).
 
+## Soil Data
+
 ### Overall Characteristics of Soil Data
 
 #### Soil Types and Agroeceosystems 
@@ -51,52 +54,101 @@ As far as I understood, we are currently using [Copernicus Sentinel-2 imagery](h
 - Analytical methods used for SOC measurements are far from being homogenous among laboratories and countries, and specifically in the context of the satellite-derived SOC studies, with 50% using dry combustion, 30% wet oxidation, and others unspecified. The Walkley–Black method, common in the past, tends to underestimate SOC. Dry combustion (automated dry combustion ADC) with a CHN analyzer is now the standard, but results need correction (usually by a factor of 1.33) for wet oxidation. This correction factor varies based on factors like climate and soil type. Additionally, CN analyzers measure total carbon, including carbonates, which must be subtracted to find the actual SOC in calcareous soils.
 (least biased method to this point is ADC, with some exceptions for very organic soils)
 
-#### Potential Soil Data
+### Potential Soil Data
 
 Big:
 - [ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets) --> [Overview of all Datasets on ESDAC](https://esdac.jrc.ec.europa.eu/resource-type/datasets-list)
 - [ISRIC World Soil Information](https://www.isric.org/explore/wosis)
 
-
 ##### Big Scale Actual Datasets
-| Data Set              | License | Overview. | Score (0-100) | Remarks  | 
-|-----------------------|---------|-----------|---------------|----------|
-|[LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas)| Access via ESDAC registration | ~19k samples across EU+UK; SOC, texture, pH, nutrients, and other topsoil properties.; mainly 0–20 cm depth; 2009/2012/2015/2018 | | |
-[World Soil Information Service (WoSIS)](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5)| | | | |
-|[Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/)|Open license, but non-commercial use (needs specific approval from FAO)| | | |
-|ISRIC: [SOTER-based soil parameter estimates (SOTWIS) for Central and Eastern Europe, version 2.0](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/f9f23e4f-903a-4dfe-bfc4-0e6bf362b09a)| | | | | 
-|ISRIC: [WoSIS latest - Organic matter](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5)| | | | | 
-|ISRIC: [cup4soil](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3cc719a6-cbf5-4bc8-94c3-cd7d2b3db3c3)| | | | |
-|ESDAC: [SPADE 14](https://esdac.jrc.ec.europa.eu/content/spade-14#tabs-0-description=0)| commercial use allowed | 1078 soil profile data from 28 countries | | | |
+| Data Set              | License | Overview. | Remarks  | 
+|-----------------------|---------|-----------|----------|
+|[LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas)| Access via ESDAC registration | ~19k samples across EU+UK; SOC, texture, pH, nutrients, and other topsoil properties.; mainly 0–20 cm depth; 2009/2012/2015/2018 | |
+[World Soil Information Service (WoSIS)](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5)| | | |
+|ISRIC: [SOTER-based soil parameter estimates (SOTWIS) for Central and Eastern Europe, version 2.0](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/f9f23e4f-903a-4dfe-bfc4-0e6bf362b09a)| | | |
+|ISRIC: [WoSIS latest - Organic matter](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5)| | | |
+|ISRIC: [cup4soil](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3cc719a6-cbf5-4bc8-94c3-cd7d2b3db3c3)| | |
+|ESDAC: [SPADE 14](https://esdac.jrc.ec.europa.eu/content/spade-14#tabs-0-description=0)| commercial use allowed | 1078 soil profile data from 28 countries | | |
+|[Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/)|Open license, but non-commercial use (needs specific approval from FAO)| | |
 
 
 ##### Regional, National Monitoring Networks and Datasets
-| Data Set              | License | Overview. | Score (0-100) | Remarks  | 
-|-----------------------|---------|-----------|---------------|----------|
-|[NABODAT, Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)| Non-commercial Creative Commons license (further inquieries ongoing)| | | |
+| Data Set              | License | Overview. | Remarks  | 
+|-----------------------|---------|-----------|----------|
+|[NABODAT, Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)| Non-commercial Creative Commons license (further inquieries ongoing)| 42’000 survey sites, ranging back to 1953 | |
 |[French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)| Etalab Open License 2.0 (commercial use ok) | Topsoil measurements (SOC, nutrients, pH, texture, etc.)| |
-|[German Soil Inventory (BZE)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw) link to [Open Agrar](https://www.openagrar.de/receive/openagrar_mods_00054877)| CC BY 4.0 (commercial use ok)| | | |
-|[ITACyL](https://suelos.itacyl.es/base_datos)| commercial use allowed (as far as I can tell)| | | |
-|[Countryside survey of topsoil in Great Britain](https://www.ukso.org/static-maps/countryside-survey-topsoil.html)| ??? | | | |
-
+|[German Soil Inventory (BZE)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw) link to [Open Agrar](https://www.openagrar.de/receive/openagrar_mods_00054877)| CC BY 4.0 | | |
+|[ITACyL](https://suelos.itacyl.es/base_datos)| commercial use allowed (as far as I can tell)| Castilla y León | |
+|[Countryside survey of topsoil in Great Britain](https://www.ukso.org/static-maps/countryside-survey-topsoil.html)| | | |
+|[BORIS](https://www.umweltbundesamt.at/boris)| [Access via form](https://www.umweltbundesamt.at/umweltthemen/boden/boris/boris-datenzugang#c4688)/Commercial use potentially allowed | Austria |  |
+| [AboD.at](https://www.ages.at/en/environment/soil/abodat-soil-data-austria/abodat)| | Austrian Soil Data | Nothing of interest found so far, either not found or not available|
+|[Databank Ondergrond Vlaanderen (DOV)](https://www.dov.vlaanderen.be/geonetwork/srv/api/records/037427b6-d9ad-43ec-9c1e-b423396266d6) | | Soil organic carbon stock maps for Belgium | Keywords: GEMET, INSPIRE|
+|[Data.Gov.Be](https://data.gov.be/en/datasets/7e7ad301-6bf9-4e0d-9935-40e32fc37cf3) | | Digital soil map of the Flemish Region | |
+| [CARBIOSOL Wallonie](https://geoportail.wallonie.be/catalogue/47e4ea34-fe00-4712-b795-4a85fdab7dd7.html)| Open access | Total Organic Carbon (TOC) contents and stocks of agricultural soils in Wallonia | |
+| [GisSol](https://www.gissol.fr/donnees) --> [GisSol DataVerse](https://entrepot.recherche.data.gouv.fr/dataverse/gissol) | etalab 2.0 | France | |
+| [INFOSOLO](https://data.isric.org/geonetwork/srv/api/records/25d0cf4d-1865-4d2a-be32-40a1b2483936) | CC BY 4.0 | Portugal, soil data from a set of 9934 horizons/layers studied in 3461 soil profiles across the country between 1966 and 2014 | [Download](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/25d0cf4d-1865-4d2a-be32-40a1b2483936) |
 
 SSLs:
 - [GEOCRADLE (Soil Spectral Library (SSL))](http://datahub.geocradle.eu/dataset/regional-soil-spectral-library)
-
-
-Link-Dump:
-- [BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)
-- [Environmental Information Data Centre](https://eidc.ac.uk/finddata) - seems to have many open license datasets
-- [SoilGrids — global gridded soil information](https://www.isric.org/explore/soilgrids)
 
 #### ![USECASE CINSOIL](https://img.shields.io/badge/USECASE%20CINSOIL-green)
 
 So far, used the [LUCAS topsoil database](https://esdac.jrc.ec.europa.eu/projects/lucas).
 
 
+#### And some more things to check out: 
 
-And some more things to check out: 
+Link-Dump:
 
+- [BonaRes data repository (Germany)](https://www.bonares.de/service-portal/data-repository)
+- [Environmental Information Data Centre](https://eidc.ac.uk/finddata) - seems to have many open license datasets
+- [SoilGrids — global gridded soil information](https://www.isric.org/explore/soilgrids)
+- [Belgian Soil Sampling (LUCAS verification)](https://catalogue.ejpsoil.eu/collections/metadata:main/items/10.5281-zenodo.15114209)
+- [Soil Organic Carbon Stock Maps for Belgium](https://www.dov.vlaanderen.be/geonetwork/srv/api/records/037427b6-d9ad-43ec-9c1e-b423396266d6)
+- [Stocks de carbone (0-30 cm) des sols du réseau RMQS, France](https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.15454/RURZXN)
 - “Caring for Soil” mission of the European Commission
 - WorldSoils (http://www.world-soils.com/, accessed on 7 Aug 2025) of the European Space Agency (ESA)
 - STEROPES of the European Joint H2020 Program SOIL (https://ejpsoil.eu, accessed on 07 Aug 2025) - more importantly check out https://ejpsoil.eu/soil-data/ and https://catalogue.ejpsoil.eu (this looks like a catalogue listing a set of datasets around soil data in Europe (coming from [Vaudour et al., 2022](../papers/Vadour-2024.pdf))).
+
+
+## Climate Data
+
+| Data Set              | License | Overview. | Remarks  | 
+|-----------------------|---------|-----------|----------|
+| [ERA-5 Land](https://www.ecmwf.int/en/era5-land) | open access | wind, temp, snow, soil temp, surface precssure, solar rad, prec, soil water; worldwide | | 
+| [Worldclim](https://worldclim.org/data/index.html) |
+
+
+
+
+
+#### ![USECASE CINSOIL](https://img.shields.io/badge/USECASE%20CINSOIL-green)
+
+So far, used [ERA-5 Land](https://www.ecmwf.int/en/era5-land) dataet, that, in its consolidated version, covers the period from January 1950 to 2-3 months before the present. In addition, the ERA5-Land-T version delivers non-checked close to Near-Real-Time (NRT) daily updates. ERA5-Land-T is synchronized with the close to NRT daily updates provided by the ERA5 climate reanalysis (ERA5T). Currently, ERA5-Land dataset contains only one (9 km) high resolution realisation (HRES).
+
+It provides information on wind, temperature, snow cover, soil temperature, surface pressure, surface solar radiation, total precipitation, and soil water.
+
+
+## Carbon Flux Data
+
+| Data Set              | License | Overview. | Remarks  | 
+|-----------------------|---------|-----------|----------|
+| ICOS FLux Data | CC BY 4.0 | | |
+
+
+## Typology
+
+### Digital Elevation Models
+
+| Data Set              | License | Overview. | Remarks  | 
+|-----------------------|---------|-----------|----------|
+| [Copernicus DEM](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) | Free access to 30/90m res, 10m special access | | |
+| [NASA SRTM](https://cmr.earthdata.nasa.gov/search/concepts/C1220566448-USGS_LTA.html) | | | | 
+
+
+
+
+
+
+
+
