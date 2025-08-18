@@ -139,10 +139,7 @@ It provides information on wind, temperature, snow cover, soil temperature, surf
 
 | Data Set              | License | Overview. | Remarks  | 
 |-----------------------|---------|-----------|----------|
-|[ICOS FLUXCOM-X](https://www.icos-cp.eu/data-products/fluxcom-x-global-fluxes-collection) | CC BY 4.0 | Global exchange fluxes for CO2 as GPP, NEE, and water vapor as transpiration and evapotranspiration for the years 2001 until 2021. Depending on the spatial resolution of the data the temporal resolutions are:
-- 0.5 degree: monthly
-- 0.25 degree: daily, monthly diurnal cycle
-- 0.05 degree: monthly | |
+|[ICOS FLUXCOM-X](https://www.icos-cp.eu/data-products/fluxcom-x-global-fluxes-collection) | CC BY 4.0 | Global exchange fluxes for CO2 as GPP, NEE, and water vapor as transpiration and evapotranspiration for the years 2001 until 2021. Depending on the spatial resolution of the data the temporal resolutions are: 0.5 degree: monthly; 0.25 degree: daily, monthly diurnal cycle; 0.05 degree: monthly | |
 |[ICOS Carbon Tracker Europe](https://www.icos-cp.eu/data-products/high-resolution-near-real-time-co2-fluxes-over-europe-carbon-tracker-europe-2017-2025) | CC BY 4.0 | Collection of hourly CO2 fluxes for 2017-2025 | |
 |[ICOS Biosphere-atmosphere exchange fluxes for CO2](https://www.icos-cp.eu/data-products/biosphere-atmosphere-exchange-fluxes-co2-vegetation-photosynthesis-and-respiration) | CC BY 4.0 | Biosphere-atmosphere exchange fluxes for CO2 simulated with the Vegetation Photosynthesis and Respiration Model VPRM for the European domain. | |
 |[FLUXNET](https://fluxnet.org/about/)| open access | | [Access to FLUXNET2015, the most recent dataset](https://fluxnet.org/data/fluxnet2015-dataset/); planned to be fully operational by December 2025|
