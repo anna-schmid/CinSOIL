@@ -79,7 +79,7 @@ Big:
 ##### Regional, National Monitoring Networks and Datasets
 | Data Set              | License | Overview. | Remarks  | 
 |-----------------------|---------|-----------|----------|
-|[NABODAT, Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)| Non-commercial Creative Commons license (further inquieries ongoing)| 42’000 survey sites, ranging back to 1953 | |
+|[NABODAT, Swiss Soil Dataset](../data/Swiss_Soil_Dataset_V7.pdf)| Open access | 42’000 survey sites, ranging back to 1953 | |
 |[French National Soil Data Centre](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000)| Etalab Open License 2.0 (commercial use ok) | Topsoil measurements (SOC, nutrients, pH, texture, etc.)| |
 |[German Soil Inventory (BZE)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw) --> [Open Agrar](https://www.openagrar.de/receive/openagrar_mods_00054877)| CC BY 4.0 | | |
 |[ITACyL](https://suelos.itacyl.es/base_datos)| commercial use allowed (as far as I can tell)| Castilla y León | |
