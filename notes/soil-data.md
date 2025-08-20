@@ -32,15 +32,27 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 
 | Dataset | License | Coverage | Notes |
 |---------|---------|----------|-------|
-| [LUCAS Topsoil](https://esdac.jrc.ec.europa.eu/projects/lucas) | ESDAC registration | EU+UK, ~19k samples (0–20 cm) | SOC, texture, pH, nutrients; campaigns 2009/2012/2015/2018 |
+| [LUCAS Topsoil](https://esdac.jrc.ec.europa.eu/projects/lucas) | ✅ Access via ESDAC registration | EU+UK, ~19k samples (0–20 cm) | SOC, texture, pH, nutrients; campaigns 2009/2012/2015/2018 |
 | [WoSIS latest](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5) | ❓ | Global | Harmonized soil profiles |
-| [WoSIS 2023](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/e50f84e1-aa5b-49cb-bd6b-cd581232a2ec) | ❓ | Global | |
-| [SOTER/SOTWIS](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/f9f23e4f-903a-4dfe-bfc4-0e6bf362b09a) | ❓ | Central & Eastern Europe | Soil parameter estimates |
 | [SPADE 14](https://esdac.jrc.ec.europa.eu/content/spade-14#tabs-0-description=0) | ✅ commercial allowed | 1078 soil profiles (28 countries) | |
-| [Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/) | ❓ | Global | Needs FAO approval for commercial |
-| [ISCN](https://iscn.fluxdata.org/data/) | ❓ | Global | 70k+ soil carbon locations, community-driven |
+| [Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/) | ❓ | Global | Needs FAO approval for commercial I think |
+| [ISCN](https://iscn.fluxdata.org/data/) | ❓ Open-access (?) | Global | 70k+ soil carbon locations, community-driven |
 | [SoilGrids](https://www.isric.org/explore/soilgrids) | ✅ open | Global | ML-upscaled SOC; ⚠️ not for validation |
-| [cup4soil](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3cc719a6-cbf5-4bc8-94c3-cd7d2b3db3c3) (ISRIC) | ❓ | Europe | Cup-shaped soil profiles collection |
+| [cup4soil](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3cc719a6-cbf5-4bc8-94c3-cd7d2b3db3c3) (ISRIC) | ❓ | Global | Cup-shaped soil profiles collection |
+| [WorldSoils (ESA)](http://www.world-soils.com/) | ❓ | Global| Accessed 7 Aug 2025 |
+
+</details>
+
+## 🇺🇸 USA 
+
+<details>
+<summary> Expand US datasets </summary>
+
+| Dataset | License | Coverage | Notes |
+|---------|---------|----------|-------|
+|[National Resources Conservation Service (NRCS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm) --> [Web Soil Surves (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx) | ✅ Generally open access (Lab Data Mart) | USA | [Access Lab Data Mart](https://ncsslabdatamart.sc.egov.usda.gov) |
+|[Rapid Carbon Assessment](https://www.nrcs.usda.gov/resources/data-and-reports/rapid-carbon-assessment-raca) | ❓ | USA | [RaCA Download](https://nrcs.app.box.com/s/upx5xhlwis7saunfiysclfrhl5vxxudn) |
+|[Gridded Soil Survey Geographic (gSSURGO) Database](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-soil-survey-geographic-gssurgo-database) | ✅ Public domain | USA | |
 
 </details>
 
@@ -53,6 +65,7 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 | Dataset | License | Coverage | Notes |
 |---------|---------|----------|-------|
 | [NABODAT](../data/Swiss_Soil_Dataset_V7.pdf) | ✅ open | Switzerland, 42k sites since 1953 | |
+| [SOTER/SOTWIS](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/f9f23e4f-903a-4dfe-bfc4-0e6bf362b09a) | ❓ | Central & Eastern Europe | Soil parameter estimates |
 | [French National Soil DB](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000) | ✅ Etalab 2.0 | France | SOC, nutrients, texture, pH |
 | [GisSol](https://www.gissol.fr/donnees) → [Dataverse](https://entrepot.recherche.data.gouv.fr/dataverse/gissol) | ✅ Etalab 2.0 | France | |
 | [Stocks de carbone (RMQS)](https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.15454/RURZXN) | ❓ | France | SOC stocks (0–30 cm) |
@@ -67,7 +80,6 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 | [Data.gov.be](https://data.gov.be/en/datasets/7e7ad301-6bf9-4e0d-9935-40e32fc37cf3) | ❓ | Belgium | Digital soil map of Flanders |
 | [INFOSOLO](https://data.isric.org/geonetwork/srv/api/records/25d0cf4d-1865-4d2a-be32-40a1b2483936) | ✅ CC BY 4.0 | Portugal | 9,934 horizons, 3,461 profiles (1966–2014) |
 | [EJP Soil Catalogue](https://catalogue.ejpsoil.eu) | ❓ | Europe | Meta-catalogue of EU soil datasets |
-| [WorldSoils (ESA)](http://www.world-soils.com/) | ❓ | Europe, ESA-led | Accessed 7 Aug 2025 |
 | [STEROPES (H2020)](https://ejpsoil.eu/soil-data/) | ❓ | Europe | EU Joint Program soil data hub |
 | [Belgian Soil Sampling (LUCAS verification)](https://catalogue.ejpsoil.eu/collections/metadata:main/items/10.5281-zenodo.15114209) | ❓ | Belgium | Verification dataset |
 
