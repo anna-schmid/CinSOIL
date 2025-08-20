@@ -60,7 +60,7 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 | [BonaRes Data Repository](https://www.bonares.de/service-portal/data-repository) | ✅ open | Germany | Soil & agronomic research repository |
 | [ITACyL](https://suelos.itacyl.es/base_datos) | ❓ unclear | Spain (Castilla y León) | |
 | [Countryside Survey (UK)](https://www.ukso.org/static-maps/countryside-survey-topsoil.html) | ? | UK | Topsoil survey |
-| [BORIS](https://www.umweltbundesamt.at/boris) | ⚠️ restricted | Austria | Form required; maybe commercial use allowed |
+| [BORIS](https://www.umweltbundesamt.at/boris) | 🔒 restricted | Austria | Form required; maybe commercial use allowed |
 | [AboD.at](https://www.ages.at/en/environment/soil/abodat-soil-data-austria/abodat) | ? | Austria | Sparse info |
 | [Databank Ondergrond Vlaanderen (DOV)](https://www.dov.vlaanderen.be/geonetwork/srv/api/records/037427b6-d9ad-43ec-9c1e-b423396266d6) | ❓ | Belgium | SOC stock maps |
 | [CARBIOSOL Wallonie](https://geoportail.wallonie.be/catalogue/47e4ea34-fe00-4712-b795-4a85fdab7dd7.html) | ✅ open | Belgium (Wallonia) | TOC contents & stocks |
