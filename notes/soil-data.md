@@ -104,7 +104,6 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 </details>
 
 
-
 ## Notes on LUCAS data
 
 <details>
@@ -128,9 +127,9 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 
 </details>
 
----
-
 ## Resources
+
+<details>
 
 - Vaudour et al., 2022 — Review of satellite-derived SOC studies 
 - [LUCAS Soil, largest expandable dataset for Europe](https://bsssjournals.onlinelibrary.wiley.com/doi/10.1111/ejss.12499)  
@@ -143,8 +142,9 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 - [LUCAS Soil, the largest expandable soil dataset for Europe: a review](https://bsssjournals.onlinelibrary.wiley.com/doi/10.1111/ejss.12499)
 - [Harmonised LUCAS in-situ land cover and use database for field surveys from 2006 to 2018 in the European Union](https://data.jrc.ec.europa.eu/dataset/f85907ae-d123-471f-a44a-8cca993485a2)
 
----
+</details>
 
+---
 
 
 ## 2023
