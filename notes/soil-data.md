@@ -14,12 +14,14 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 ---
 
 ## ToDo / Open Questions
-- [ ] Clarify licenses for some datasets (esp. FAO, ITACyL, BORIS, etc.).
+- [ ] Clarify licenses for some datasets.
 - [ ] Search for more **national datasets** (Nordics, Eastern Europe, Africa).
 - [ ] Harmonize **metadata**: depth, methods, sample size, lab analysis.
-- [ ] Mark datasets useful for **validation** vs. only **comparison** (e.g., SoilGrids).
+- [ ] Variable 0verview 
+- [ ] Mark datasets useful for **training**, **validation** vs. only **comparison**.
 - [ ] Build “accessibility” overview: ✅ open | ❓ unclear | 🔒 restricted.
 - [ ] Check dataset update frequency (LUCAS, WoSIS, NABODAT, etc.).
+- [ ] Circle back after checking in with Research Community, big missing datasets?
 
 ---
 
