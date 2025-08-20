@@ -41,7 +41,7 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 | [cup4soil](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3cc719a6-cbf5-4bc8-94c3-cd7d2b3db3c3) (ISRIC) | ❓ | Europe | Cup-shaped soil profiles collection |
 
 </details>
----
+
 
 ## 🇪🇺 European & Regional
 
@@ -82,7 +82,6 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 
 </details>
 
----
 
 ## Soil properties maps
 
@@ -93,7 +92,6 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 
 </details>
 
----
 
 ## Soil Biodiversity
 
@@ -105,7 +103,6 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 
 </details>
 
----
 
 
 ## Notes on LUCAS data
@@ -117,7 +114,6 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 
 </details>
 
----
 
 ## Link Dump / To be sorted
 
