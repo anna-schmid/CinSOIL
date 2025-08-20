@@ -162,6 +162,7 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 ## 2022
 
 <details>
+
 - [2022](https://data.jrc.ec.europa.eu/dataset/e3fe3cd0-44db-470e-8769-172a8b9e8874)
 
 ### Bare soil composites 2018-2022
