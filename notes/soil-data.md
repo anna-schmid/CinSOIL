@@ -56,18 +56,17 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 | [French National Soil DB](https://recherche.data.gouv.fr/en/dataset/soil-geographical-data-base-for-france-at-1-1000000) | ✅ Etalab 2.0 | France | SOC, nutrients, texture, pH |
 | [GisSol](https://www.gissol.fr/donnees) → [Dataverse](https://entrepot.recherche.data.gouv.fr/dataverse/gissol) | ✅ Etalab 2.0 | France | |
 | [Stocks de carbone (RMQS)](https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.15454/RURZXN) | ❓ | France | SOC stocks (0–30 cm) |
-| [German Soil Inventory (BZE)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw) | ✅ CC BY 4.0 | Germany | |
+| [German Soil Inventory (BZE)](https://www.thuenen.de/en/institutes/climate-smart-agriculture/projects/agricultural-soil-inventory-bze-lw) → [Open Agrar](https://www.openagrar.de/receive/openagrar_mods_00054877) | ✅ CC BY 4.0 | Germany | |
 | [BonaRes Data Repository](https://www.bonares.de/service-portal/data-repository) | ✅ open | Germany | Soil & agronomic research repository |
 | [ITACyL](https://suelos.itacyl.es/base_datos) | ❓ unclear | Spain (Castilla y León) | |
 | [Countryside Survey (UK)](https://www.ukso.org/static-maps/countryside-survey-topsoil.html) | ? | UK | Topsoil survey |
-| [BORIS](https://www.umweltbundesamt.at/boris) | 🔒 restricted | Austria | Form required; maybe commercial use allowed |
+| [BORIS](https://www.umweltbundesamt.at/boris) | 🔒 restricted | Austria | Form required ([Access](https://www.umweltbundesamt.at/umweltthemen/boden/boris/boris-datenzugang#c4688)); maybe commercial use allowed |
 | [AboD.at](https://www.ages.at/en/environment/soil/abodat-soil-data-austria/abodat) | ? | Austria | Sparse info |
-| [Databank Ondergrond Vlaanderen (DOV)](https://www.dov.vlaanderen.be/geonetwork/srv/api/records/037427b6-d9ad-43ec-9c1e-b423396266d6) | ❓ | Belgium | SOC stock maps |
+| [Databank Ondergrond Vlaanderen (DOV)](https://www.dov.vlaanderen.be/geonetwork/srv/api/records/037427b6-d9ad-43ec-9c1e-b423396266d6) | ❓ | Belgium | SOC stock maps; Keywords: GEMET, INSPIRE |
 | [CARBIOSOL Wallonie](https://geoportail.wallonie.be/catalogue/47e4ea34-fe00-4712-b795-4a85fdab7dd7.html) | ✅ open | Belgium (Wallonia) | TOC contents & stocks |
 | [Data.gov.be](https://data.gov.be/en/datasets/7e7ad301-6bf9-4e0d-9935-40e32fc37cf3) | ❓ | Belgium | Digital soil map of Flanders |
-| [INFOSOLO](https://data.isric.org/geonetwork/srv/api/records/25d0cf4d-1865-4d2a-be32-40a1b2483936) | ✅ CC BY 4.0 | Portugal | 9,934 horizons, 3,461 profiles (1966–2014) |
+| [INFOSOLO](https://data.isric.org/geonetwork/srv/api/records/25d0cf4d-1865-4d2a-be32-40a1b2483936) | ✅ CC BY 4.0 | Portugal | 9,934 horizons, 3,461 profiles (1966–2014); [Download](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/25d0cf4d-1865-4d2a-be32-40a1b2483936) |
 | [EJP Soil Catalogue](https://catalogue.ejpsoil.eu) | ❓ | Europe | Meta-catalogue of EU soil datasets |
-| [STEROPES (H2020)](https://ejpsoil.eu/soil-data/) | ❓ | Europe | EU Joint Program soil data hub |
 | [Belgian Soil Sampling (LUCAS verification)](https://catalogue.ejpsoil.eu/collections/metadata:main/items/10.5281-zenodo.15114209) | ❓ | Belgium | Verification dataset |
 
 </details>
@@ -79,9 +78,9 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 
 | Dataset | License | Coverage | Notes |
 |---------|---------|----------|-------|
-|[National Resources Conservation Service (NRCS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm) --> [Web Soil Surves (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx) | ✅ Generally open access (Lab Data Mart) | USA | [Access Lab Data Mart](https://ncsslabdatamart.sc.egov.usda.gov) |
-|[Rapid Carbon Assessment](https://www.nrcs.usda.gov/resources/data-and-reports/rapid-carbon-assessment-raca) | ❓ | USA | [RaCA Download](https://nrcs.app.box.com/s/upx5xhlwis7saunfiysclfrhl5vxxudn) |
-|[Gridded Soil Survey Geographic (gSSURGO) Database](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-soil-survey-geographic-gssurgo-database) | ✅ Public domain | USA | |
+|[National Resources Conservation Service (NRCS)](https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm) → [Web Soil Surves (WSS)](https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx) | ✅ Generally open access (Lab Data Mart) | USA | [Access Lab Data Mart](https://ncsslabdatamart.sc.egov.usda.gov) |
+|[Rapid Carbon Assessment (RaCA)](https://www.nrcs.usda.gov/resources/data-and-reports/rapid-carbon-assessment-raca) | ❓ | USA | [Download](https://nrcs.app.box.com/s/upx5xhlwis7saunfiysclfrhl5vxxudn) |
+|[gSSURGO](https://www.nrcs.usda.gov/resources/data-and-reports/gridded-soil-survey-geographic-gssurgo-database) | ✅ Public domain | USA | Gridded Soil Survey Geographic Database |
 
 </details>
 
