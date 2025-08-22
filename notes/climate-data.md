@@ -20,12 +20,9 @@ By deafult we use ERA5-Land climate data, but it is desirable to use data with h
 
 The [ERA5-Land](https://www.ecmwf.int/en/era5-land) dataset provides hourly high resolution information of surface variables. The data is a replay of the land component of the ERA5 climate reanalysis with a finer spatial resolution: ~9km grid spacing. 
 ERA5-Land includes information about uncertainties for all variables at reduced spatial and temporal resolutions.
-
-The [documentation](https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation) includes a comprehensive table of available variables.
-
-The [forum](https://forum.ecmwf.int/c/announcements/5)
-
-The data are provided under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- The [documentation](https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation) includes a comprehensive table of available variables.
+- Link to the [forum](https://forum.ecmwf.int/c/announcements/5).
+- The data are provided under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
