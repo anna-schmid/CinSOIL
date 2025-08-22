@@ -14,10 +14,18 @@ Climate data are necessary input for several analyses and models, including soil
 
 #### ![USECASE CINSOIL](https://img.shields.io/badge/USECASE%20CINSOIL-green)
 
-So far, we used [ERA-5 Land](https://www.ecmwf.int/en/era5-land) dataset, that, in its consolidated version, covers the period from January 1950 to 2-3 months before the present. In addition, the ERA5-Land-T version delivers non-checked close to Near-Real-Time (NRT) daily updates. ERA5-Land-T is synchronized with the close to NRT daily updates provided by the ERA5 climate reanalysis (ERA5T). Currently, ERA5-Land dataset contains only one (9 km) high resolution realisation (HRES).
+By deafult we use ERA5-Land climate data, but it is desirable to use data with higher spatial resolution.
 
-It provides information on wind, temperature, snow cover, soil temperature, surface pressure, surface solar radiation, total precipitation, and soil water. But it is desirable to use data with higher spatial resolution.
+## ERA5-Land
 
+The [ERA5-Land](https://www.ecmwf.int/en/era5-land) dataset provides hourly high resolution information of surface variables. The data is a replay of the land component of the ERA5 climate reanalysis with a finer spatial resolution: ~9km grid spacing. 
+ERA5-Land includes information about uncertainties for all variables at reduced spatial and temporal resolutions.
+
+The [documentation](https://confluence.ecmwf.int/display/CKB/ERA5-Land%3A+data+documentation) includes a comprehensive table of available variables.
+
+The [forum](https://forum.ecmwf.int/c/announcements/5)
+
+The data are provided under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
@@ -36,7 +44,7 @@ It provides information on wind, temperature, snow cover, soil temperature, surf
 
 | Dataset | License | Coverage | Notes |
 |---------|---------|----------|-------|
-|[ERA-5 Land](https://www.ecmwf.int/en/era5-land) | ✅ open access | wind, temp, snow, soil temp, surface precssure, solar rad, prec, soil water; worldwide | | 
+|[ERA-5 Land](https://www.ecmwf.int/en/era5-land) | ✅ open access | wind, temp, snow, soil temp, surface precssure, solar rad, prec, soil water; worldwide | Currently used | 
 |[Worldclim](https://worldclim.org/data/index.html) | ❓ commercial use is not allowed without prior permission | avg min/max temp, total prec: spatial resolution is 2.5 minutes (~21 km2 at the equator), 5 minutes (~85 km2) or 10 minutes (~340 km2): monthly data for 1950-2024 | downscaled from CRU-TS-4.09 by the Climatic Research Unit |
 |[TerraClimate](https://www.climatologylab.org/terraclimate.html) | ✅ public domain | Maximum temperature, minimum temperature, vapor pressure, precipitation accumulation, downward surface shortwave radiation, wind-speed: monthly, 4km spatial resolution, 1958-2019 | combining high-spatial resolution climatological normals from the WorldClim dataset, with coarser spatial resolution, but time-varying data from CRU Ts4.0 and the Japanese 55-year Reanalysis (JRA55) |
 |[CHIRPS](https://www.chc.ucsb.edu/data/chirps3) | ✅ CC BY 4.0 | 40+ year, high-resolution quasi-global rainfall dataset | |
@@ -44,6 +52,7 @@ It provides information on wind, temperature, snow cover, soil temperature, surf
 |[CHIRTS-ERA5](https://www.chc.ucsb.edu/data/chirts-era5)| ✅ CC BY 4.0 | bias-corrected and downscaled version of the ERA5 temperature product made to be compatible with the CHIRTS product | |
 |[NASA POWER](https://registry.opendata.aws/nasa-power/) | ✅ CC BY 4.0 | Solar and meteorological data derived from satellite observations and models | |
 |[E-OBS](https://www.ecad.eu/download/ensembles/download.php)| 🔒 Strictly non-commercial | ENSEMBLES daily gridded observational dataset for precipitation, temperature and sea level pressure in Europe | | 
+| [Meteomatics](https://www.meteomatics.com/en/api/available-parameters/weather-parameter/precipitation/)| Payed |~1,800 parameters; ~110 models and data sources, forecasts, projections (<2100), historical data (>1940), resolution (5min, 90m) | Weather API for Business|
 
 </details>
 

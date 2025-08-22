@@ -33,7 +33,7 @@ This file collects datasets, notes, and references related to soil carbon, soil 
 | Dataset | License | Coverage | Notes |
 |---------|---------|----------|-------|
 | [WoSIS latest](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/3ca32c74-a47b-496d-9943-9db04d7918b5) | ❓ | Global | Harmonized soil profiles |
-| [SPADE 14](https://esdac.jrc.ec.europa.eu/content/spade-14#tabs-0-description=0) | ✅ commercial allowed | 1078 soil profiles (28 countries) | |
+| [SPADE 14](https://esdac.jrc.ec.europa.eu/content/spade-14#tabs-0-description=0) | ✅ commercial allowed | 1,078 soil profiles (28 countries) | |
 | [Harmonized World Soil Database v2.0](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/harmonized-world-soil-database-v20/en/) | ❓ | Global | Needs FAO approval for commercial I think |
 | [ISCN](https://iscn.fluxdata.org/data/) | ❓ Open-access (?) | Global | 70k+ soil carbon locations, community-driven |
 | [SoilGrids](https://www.isric.org/explore/soilgrids) | ✅ open | Global | ML-upscaled SOC; ⚠️ not for validation |
