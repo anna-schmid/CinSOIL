@@ -147,7 +147,7 @@ It provides information on wind, temperature, snow cover, soil temperature, surf
 |[GloFlux](https://data.tpdc.ac.cn/en/data/761ff597-830d-4e1a-9999-b99fd6f8d4a2) | CC BY 4.0 | [Nature Paper on GloFLux](https://www.nature.com/articles/s41597-025-05672-8?utm_source=chatgpt.com)| |
 
 
-## Typology
+## Topology
 
 ### Digital Elevation Models
 
