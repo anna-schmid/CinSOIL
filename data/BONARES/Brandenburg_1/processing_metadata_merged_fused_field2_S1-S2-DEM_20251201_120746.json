@@ -1,8 +1,0 @@
-{
-  "processing_timestamp": "2025-12-01T09:07:46Z",
-  "collection": "merged_fused_field2_S1-S2-DEM",
-  "operation": "scale--scale",
-  "input_files": ["data/BONARES/Brandenburg_1/merged_fused_field2_S1-S2-DEM_cube.nc"],
-  "output_file": "scaled_fused_field2_S1-S2-DEM_cube.nc",
-  "output_path": "data/BONARES/Brandenburg_1/scaled_fused_field2_S1-S2-DEM_cube.nc"
-}
