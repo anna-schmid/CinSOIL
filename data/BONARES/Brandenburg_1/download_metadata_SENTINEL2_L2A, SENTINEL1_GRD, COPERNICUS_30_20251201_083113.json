@@ -1,0 +1,12 @@
+{
+  "download_timestamp": "2025-12-01T05:31:13Z",
+  "project_name": "BONARES/Brandenburg_1", 
+  "collection": "SENTINEL2_L2A, SENTINEL1_GRD, COPERNICUS_30",
+  "requested_period": {
+    "start_date": "2020-01-01",
+    "end_date": "2021-01-01"
+  },
+  "aoi_file": "field_1.shp",
+  "prefix": "fused_field1_S1-S2-DEM_2020",
+  "bands": "all_bands"
+}

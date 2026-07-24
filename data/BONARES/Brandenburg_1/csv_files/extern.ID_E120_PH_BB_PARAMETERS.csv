@@ -1,0 +1,15 @@
+﻿parm_ID,parameter,abbreviation,unit,method
+1,Clay,Cl,M%,DIN ISO 11277
+2,Fine silt,fSi,M%,DIN ISO 11277
+3,Middle silt,mSi,M%,DIN ISO 11277
+4,Coarse silt,cSi,M%,DIN ISO 11277
+5,Fine sand,fSa,M%,DIN ISO 11277
+6,Middle sand,mSa,M%,DIN ISO 11277
+7,Coarse sand,cSa,M%,DIN ISO 11277
+8,soil pH,pH,,DIN ISO 10390
+9,Soil organic carbon,SOC,M%,DIN ISO 10694
+10,Total carbon,TC,M%,DIN ISO 10694
+11,Totoal nitrogen,TN,M%,DIN ISO 10694
+12,Phosphorus (plant available),P,mg/100 g,"Methodenbuch VDLUFA 1991, Band I, A 6.2.1.2."
+13,Potassium (plant available),K,mg/100 g,"Methodenbuch VDLUFA 1991, Band I, A 6.2.1.2."
+14,Magnesia (plant available),Mg,mg/100 g,Approach based on the Methodenbuch SKALAR

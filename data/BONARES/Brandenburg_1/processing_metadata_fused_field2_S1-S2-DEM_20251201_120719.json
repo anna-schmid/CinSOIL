@@ -1,0 +1,8 @@
+{
+  "processing_timestamp": "2025-12-01T09:07:19Z",
+  "collection": "fused_field2_S1-S2-DEM",
+  "operation": "merge",
+  "input_files": ["data/BONARES/Brandenburg_1/fused_field2_S1-S2-DEM_2020_cube-raw.nc", "data/BONARES/Brandenburg_1/fused_field2_S1-S2-DEM_2021_cube-raw.nc", "data/BONARES/Brandenburg_1/fused_field2_S1-S2-DEM_2022_cube-raw.nc", "data/BONARES/Brandenburg_1/fused_field2_S1-S2-DEM_2019_cube-raw.nc"],
+  "output_file": "merged_fused_field2_S1-S2-DEM_cube.nc",
+  "output_path": "data/BONARES/Brandenburg_1/merged_fused_field2_S1-S2-DEM_cube.nc"
+}
